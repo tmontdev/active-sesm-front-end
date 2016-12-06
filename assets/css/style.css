@@ -180,7 +180,7 @@
   left: -110vw;
 }
 #app-header .right {
-  right: -110vw;
+  left: 210vw;
 }
 #app-header .shown {
   left: 0 !important;

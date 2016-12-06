@@ -4,7 +4,7 @@ $(function(){
     //when an item of menu is clicked
     $('.menu-item').click(function(event) {
       //declaring his target
-      target =$(this).attr('data-target');
+    var  target =$(this).attr('data-target');
       //his target receives a class "shown"
       $(target).addClass('shown');
       $('.rollback-area').addClass('dark');
